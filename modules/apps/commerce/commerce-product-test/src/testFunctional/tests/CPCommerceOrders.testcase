@@ -47,7 +47,6 @@ definition {
 	}
 
 	@description = "This is a test for COMMERCE-6210. Shipment cancelled"
-	@ignore = "true"
 	@priority = "3"
 	test CancelShipmentAndCreateNewFromPendingOrder {
 		property portal.acceptance = "false";
