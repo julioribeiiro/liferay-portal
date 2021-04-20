@@ -240,7 +240,7 @@ definition {
 	test ViewProductCardPriceWithDiscount {
 		property portal.acceptance = "false";
 
-		// TODO COMMERCE-6158 ViewProductCardPriceWithDiscount pending implementation
+		fljasbdgsjkfdbf
 	}
 
 	@description = "COMMERCE-6159. As a buyer, I want to see the barred list price and the sale price of a product, if a price modifier is set"
