@@ -93,9 +93,6 @@ definition {
 		FrontStore.viewProductDetail(
 			FSOptionValuesList = "Black:10.0,Blue:20.0,White:30.0",
 			FSProductName = "Simple T-Shirt");
-
-
-			
 	}
 
 }
