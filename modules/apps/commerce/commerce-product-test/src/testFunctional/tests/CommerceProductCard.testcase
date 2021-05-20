@@ -61,15 +61,15 @@ definition {
 			optionDescription = "Option Description",
 			optionFieldType = "Select from List",
 			optionName = "Color");
-		
+
 		Check.checkToggleSwitch(
 			key_toggleSwitchLabel = "Use in Faceted Navigation",
 			locator1 = "ToggleSwitch#ANY_TOGGLE_SWITCH");
-		
+
 		Check.checkToggleSwitch(
 			key_toggleSwitchLabel = "Required",
 			locator1 = "ToggleSwitch#ANY_TOGGLE_SWITCH");
-		
+
 		Check.checkToggleSwitch(
 			key_toggleSwitchLabel = "SKU Contributor",
 			locator1 = "ToggleSwitch#ANY_TOGGLE_SWITCH");
@@ -98,7 +98,7 @@ definition {
 			productCatalog = "Minium",
 			productName = "Bundled Product",
 			productType = "Simple");
-		
+
 		CommerceEntry.gotoMenuTab(menuTab = "Options");
 
 		Type(
@@ -131,7 +131,7 @@ definition {
 			key_fieldLabel = "SKU",
 			locator1 = "TextInput#GENERIC_TEXT_INPUT",
 			value1 = "MIN55861");
-		
+
 		Button.clickSave();
 
 		Alert.viewSuccessMessage();
@@ -186,28 +186,20 @@ definition {
 
 		AssertElementNotPresent(
 			key_productName = "Bundled Product",
-			locator1 = "CommerceAccelerators#PRODUCT_CARD_QUANTITY_SELECTOR_INPUT_FIELD"
-		);
+			locator1 = "CommerceAccelerators#PRODUCT_CARD_QUANTITY_SELECTOR_INPUT_FIELD");
 
 		AssertElementNotPresent(
 			key_productName = "Bundled Product",
-			locator1 = "CommerceAccelerators#ADD_TO_CART_BUTTON"
-		);
+			locator1 = "CommerceAccelerators#ADD_TO_CART_BUTTON");
 
 		AssertElementNotPresent(
 			key_productName = "Bundled Product",
-			locator1 = "CommerceAccelerators#PRODUCT_CARD_AVAILABLE_LABEL"
-		);
+			locator1 = "CommerceAccelerators#PRODUCT_CARD_AVAILABLE_LABEL");
 
 		AssertElementNotPresent(
 			key_productName = "Bundled Product",
 			key_productSKU = "BLACKSKU",
-			locator1 = "CommerceEntry#PRODUCT_CARD_SKU"
-		);
-		
-
-		
-
+			locator1 = "CommerceEntry#PRODUCT_CARD_SKU");
 	}
 
 	@description = "COMMERCE-5907. As a buyer, I want to be unable to add multiple SKU product to the cart directly, I want to be unable to select the quantity of the product directly and I want to be unable to check the availability of the product directly"
