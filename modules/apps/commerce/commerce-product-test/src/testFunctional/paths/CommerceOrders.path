@@ -68,6 +68,16 @@
     <td>//div[contains(text(),'${key_warehouseName}')]//following-sibling::div[@class = 'dnd-td']//following-sibling::div[@class = 'dnd-td']//input[contains(@class, 'form-control')]</td>
     <td></td>
 </tr>
+<tr>
+    <td>ORDER_GENERAL_DETAILS_ADD_EDIT_BUTTON</td>
+    <td>//h5[contains(text(), "${key_titleName}")]//following-sibling::a[contains(text(), "${key_buttonName}")]</td>
+    <td></td>
+</tr>
+<tr>
+    <td>ORDER_GENERAL_DETAILS_DESCRIPTION</td>
+    <td>//h5[contains(text(), "${key_titleName}")]//..//following-sibling::div[@class="description"]</td>
+    <td></td>
+</tr>
 </tbody>
 </table>
 </body>
