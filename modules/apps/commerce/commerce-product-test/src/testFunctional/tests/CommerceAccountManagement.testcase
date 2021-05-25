@@ -160,7 +160,7 @@ definition {
 			key_fieldLabel = "Name",
 			locator1 = "TextInput#GENERIC_TEXT_INPUT",
 			value1 = "Test Address 2");
-		
+
 		Click(
 			key_tab = "Update",
 			locator1 = "Button#TAB_SUBMIT_BTN");
@@ -168,8 +168,6 @@ definition {
 		AssertElementPresent(
 			key_memberEmailAddress = "Test Address 2",
 			locator1 = "CommerceAccelerators#ACCOUNT_MANAGEMENT_MEMBER_ACTIONS_DROPDOWN");
-
-
 	}
 
 	@description = "COMMERCE-6373. In Addresses tab, I want to be able to remove addresses from the account"
