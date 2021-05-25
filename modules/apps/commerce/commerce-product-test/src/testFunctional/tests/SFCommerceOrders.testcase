@@ -8,8 +8,7 @@ definition {
 	setUp {
 		TestCase.setUpPortalInstance();
 
-		//User.firstLoginPG();
-		User.firstLoginUI();
+		User.firstLoginPG();
 	}
 
 	tearDown {
@@ -42,7 +41,7 @@ definition {
 		CommerceAcceleratorsInitializer.createNewAccountViaFront(
 			accountName = "Test Test",
 			adminEmailAddress = "test@liferay.com");
-		
+
 		CommerceNavigator.gotoMiniumSidebarItem(menuItem = "Catalog");
 
 		CommerceNavigator.gotoMiniumSidebarItem(menuItem = "Pending Orders");
@@ -55,9 +54,7 @@ definition {
 
 		AssertElementPresent(
 			key_errorMessage = "Approved",
-			locator1 = "WorkflowMetricsSLA#SLA_ERROR_MESSAGE"
-		);
-
+			locator1 = "WorkflowMetricsSLA#SLA_ERROR_MESSAGE");
 	}
 
 	@description = "COMMERCE-6380. As a buyer, I want to be able to delete an Order in Pending Order details page"
@@ -67,6 +64,7 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6380 DeleteOrderFromPendingOrderDetailsPage pending implementation
+
 	}
 
 	@description = "COMMERCE-6379. As a buyer, I want to be able to edit the order in Pending Order details page and I want to view the changes I made applied to order"
