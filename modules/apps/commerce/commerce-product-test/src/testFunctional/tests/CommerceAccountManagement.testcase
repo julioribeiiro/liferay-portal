@@ -154,22 +154,18 @@ definition {
 			keyTelephone = "Test Telephone",
 			keyType = "Billing",
 			keyZipCode = "Test Zip Code");
-		
+
 		Refresh();
 
 		Click(
 			key_memberEmailAddress = "Test Name",
-			locator1 = "CommerceAccelerators#ACCOUNT_MANAGEMENT_MEMBER_ACTIONS_DROPDOWN"
-		);
+			locator1 = "CommerceAccelerators#ACCOUNT_MANAGEMENT_MEMBER_ACTIONS_DROPDOWN");
 
 		MenuItem.click(menuItem = "Delete");
-		
+
 		AssertElementNotPresent(
 			key_memberEmailAddress = "Test Name",
-			locator1 = "CommerceAccelerators#ACCOUNT_MANAGEMENT_MEMBER_ACTIONS_DROPDOWN"
-		);
-		
-
+			locator1 = "CommerceAccelerators#ACCOUNT_MANAGEMENT_MEMBER_ACTIONS_DROPDOWN");
 	}
 
 	@description = "COMMERCE-6351. In Info tab, I want to be able to remove an organization from the account by clicking 'Delete'"
