@@ -43,7 +43,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6206 AddIncomeItems Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-6200. Consume booked quantities of one item in multiple warehouses"
@@ -53,7 +52,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6200 ConsumeBookedQuantitiesFromMultipleWarehouses Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-6201. Consume quantities of one item in multiple warehouses"
@@ -63,7 +61,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6201 ConsumeQuantitiesFromMultipleWarehouses Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-5706. As a system admin i want to be able to create / update and delete a new warehouse"
@@ -387,8 +384,6 @@ definition {
 		AssertVisible(
 			key_productQuantity = "0",
 			locator1 = "CommerceOrders#ORDER_DETAILS_PRODUCT_QUANTITY");
-
-
 	}
 
 	@description = "This is a test for COMMERCE-6199. Get available quantities of one item in multiple warehouses"
@@ -398,7 +393,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6199 GetAvailableQuantityFromMultipleWarehouses Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-6204. Get stock quantity of a SKU for specific channel"
@@ -408,7 +402,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6204 GetChannelSKUStockQuantity Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-6203. Get stock quantity of a SKU"
@@ -592,7 +585,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6208 ManageInventoryEntityConcurrency Pending Implementation
-
 	}
 
 	@description = "This is a test for COMMERCE-5708. As a product specialist i want to update the quantity of a product inside a warehouse"
