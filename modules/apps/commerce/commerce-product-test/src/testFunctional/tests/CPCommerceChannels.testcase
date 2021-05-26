@@ -486,8 +486,6 @@ definition {
 		AssertElementPresent(
 			key_entryName = "Normal Product",
 			locator1 = "CommerceEntry#ENTRY_NAME_BODY_VERTICAL_ELLIPSIS");
-
-			
 	}
 
 	@description = "This is a test for COMMERCE-6195. CreateCategoryDisplayPage"
@@ -497,7 +495,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6195 CreateCategoryDisplayPage
-
 	}
 
 	test CreateNewChannel {
@@ -691,7 +688,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6197 CreateProductDisplayPage
-
 	}
 
 	@description = "This is a test for COMMERCE-6109. EditAuthorizePaymentMethod"
@@ -759,7 +755,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6119 EditAvalaraTaxCalculation
-
 	}
 
 	@description = "This is a test for COMMERCE-6275. EditCategoryDisplayPage"
@@ -886,7 +881,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6122 EditConfigurationRemoteTaxCalculation
-
 	}
 
 	@description = "This is a test for COMMERCE-6107. EditMercanetPaymentMethod"
@@ -988,7 +982,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6276 EditNotificationTemplate
-
 	}
 
 	@description = "This is a test for COMMERCE-6106. EditPaypalPaymentMethod"
@@ -1048,7 +1041,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6274 EditProductDisplayPage
-
 	}
 
 	@description = "This is a test for COMMERCE-6198. RemoveCategoryDisplayPage"
@@ -1058,7 +1050,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6198 RemoveCategoryDisplayPage
-
 	}
 
 	@description = "This is a test for COMMERCE-6270. RemoveNotificationQueue"
@@ -1068,7 +1059,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6270 RemoveNotificationQueue
-
 	}
 
 	@description = "This is a test for COMMERCE-6271. RemoveNotificationTemplate"
@@ -1078,7 +1068,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6271 RemoveNotificationTemplate
-
 	}
 
 	@description = "This is a test for COMMERCE-6196. RemoveProductDisplayPage"
@@ -1392,7 +1381,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6121 RemoveTaxRateSettingsByAddressTaxCalculation
-
 	}
 
 	@description = "This is a test for COMMERCE-6124. RemoveTaxRateSettingsFixedTaxRateTaxCalculation"
@@ -1471,7 +1459,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6267 UsePunchOut
-
 	}
 
 	@description = "This is a test for COMMERCE-6101. UseSearchBar"
@@ -1524,7 +1511,6 @@ definition {
 		property portal.acceptance = "false";
 
 		// TODO COMMERCE-6266 VerifyNotificationQueue
-
- 	}
+	}
 
 }
