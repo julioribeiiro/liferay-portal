@@ -391,7 +391,7 @@ definition {
 	@description = "This is a test for COMMERCE-6245. Check that shipping amount is correctly calculated in the order"
 	@priority = "3"
 	test ViewOrderShipmentAmountIsCorrect {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceShipments#ViewOrderShipmentAmountIsCorrect";
 
 		// TODO Review
