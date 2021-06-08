@@ -229,7 +229,7 @@ definition {
 	@description = "This is a test for COMMERCE-6262. Test address restriction on tax calculation"
 	@priority = "3"
 	test AssertAddressRestrictiedTaxIsCorrectlyCalculated {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CommerceTaxEngine#AssertAddressRestrictiedTaxIsCorrectlyCalculated";
 
 		// TODO Review
