@@ -32,7 +32,7 @@ definition {
 	@description = "This is a test for COMMERCE-6215. Maximum open order per account"
 	@priority = "3"
 	test AccountMaximumOpenOrderActive {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceOrders#AccountMaximumOpenOrderActive";
 
 		// TODO Review
