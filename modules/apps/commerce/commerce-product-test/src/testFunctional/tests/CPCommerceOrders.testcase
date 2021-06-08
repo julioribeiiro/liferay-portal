@@ -299,7 +299,7 @@ definition {
 	@ignore = "true"
 	@priority = "3"
 	test FulfillOrderWithSellerOrderAcceptanceWorkflowActive {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceOrders#FulfillOrderWithSellerOrderAcceptanceWorkflowActive";
 
 		// TODO Review
