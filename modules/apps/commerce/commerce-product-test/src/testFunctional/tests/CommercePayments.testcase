@@ -29,7 +29,7 @@ definition {
 	@description = "This is a test for COMMERCE-6219. MoneyOrder Payment Method lifecycle"
 	@priority = "3"
 	test CancelPayment {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CommercePayments#CancelPayment";
 
 		// TODO Review
