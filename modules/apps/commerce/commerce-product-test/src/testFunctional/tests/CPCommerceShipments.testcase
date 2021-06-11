@@ -473,7 +473,7 @@ definition {
 	@description = "This is a test for COMMERCE-6246. Check that shipping discount amount is correctly calculated in the order"
 	@priority = "3"
 	test ViewOrderShipmentDiscountAmountIsCorrect {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceShipments#ViewOrderShipmentDiscountAmountIsCorrect";
 
 		// TODO Review
