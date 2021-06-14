@@ -576,7 +576,7 @@ definition {
 	@description = "This is a test for COMMERCE-6208. Concurrency management for inventory entities"
 	@priority = "3"
 	test ManageInventoryEntityConcurrency {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceWarehouses#ManageInventoryEntityConcurrency";
 
 		// TODO Review
