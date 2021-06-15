@@ -89,7 +89,7 @@ definition {
 	@description = "This is a test for COMMERCE-6251. Delete shipment"
 	@priority = "3"
 	test AssertShippedShipmentNotDeletable {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceShipments#AssertShippedShipmentNotDeletable";
 
 		// TODO Review
