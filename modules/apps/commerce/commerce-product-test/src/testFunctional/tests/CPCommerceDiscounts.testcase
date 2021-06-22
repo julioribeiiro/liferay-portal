@@ -181,7 +181,7 @@ definition {
 	@description = "This is a test for COMMERCE-6229. Discount coupon code validators"
 	@priority = "3"
 	test ViewCouponCodeNotAppliedToNotQualifiedAccount {
-		property portal.acceptance = "false";
+		property portal.acceptance = "Intern Test";
 		property test.name.skip.portal.instance = "CPCommerceDiscounts#ViewCouponCodeNotAppliedToNotQualifiedAccount";
 
 		// TODO Review
@@ -284,8 +284,6 @@ definition {
 			key_titleName = "Coupon Code",
 			locator1 = "TextInput#INPUT_CONTAINS_TITLE",
 			value1 = "TEST");
-
-			
 	}
 
 	@description = "This is a test for COMMERCE-6233. Discount expiration"
